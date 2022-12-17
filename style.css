@@ -1,0 +1,83 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+    color: black;
+}
+
+.container-fluid {
+    justify-content: space-between;
+    background-color: grey;
+    border: 2px solid black;
+    font-family: 'Oxygen', sans-serif;
+    align-content: center;
+}
+
+.text-center {
+    display: block;
+}
+
+.container-fluid input[type=search] {
+    width: 500px;
+    border-radius: 5px;
+}
+
+.col .container-fluid .btn {
+    width: 60px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.container-fluid .btn img {
+    width: 30px;
+}
+
+.container-fluid img {
+    width: 30px;
+}
+
+.text-left {
+    background-color: grey;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 0.5px black solid;
+    color: black;
+    display: flex;
+}
+
+.col-md-6 .menu {
+    padding-left: 500px;
+}
+
+.col-sm-12 {
+    padding-left: 500px;
+}
+
+.list .chicken {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.list .beef {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.list .sushi {
+    text-align: center;
+    border: 2px solid black;
+}
+
+.ourmenu {
+    color: black;
+    align-content: center;
+}
+
+.Chicken {
+    color: black;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    background-color: grey;
+    width: 80%;
+    text-align: center;
+}
